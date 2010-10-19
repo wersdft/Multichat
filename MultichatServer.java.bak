@@ -22,7 +22,7 @@ public class MultichatServer
 
 			while(true){
 				socket = serverSocket.accept();
-				System.out.println("["+socket.getInetAddress()+"]ø°º≠ ¡¢º”«œºÃΩ¿¥œ¥Ÿ.");
+				System.out.println("["+socket.getInetAddress()+"]ø°º≠ ¡¢º”«œºÀΩ¿¥œ¥Ÿ.");
 
 				S_input thread = new S_input(socket);
 				thread.start();
@@ -94,7 +94,6 @@ public class MultichatServer
 			{
 
 			} finally{
-				System.out.println(name+"¥‘¿Ã ≈¿Â«œºÃΩ¿¥œ¥Ÿ.");
 				send(name+"¥‘¿Ã ≈¿Â«œºÃΩ¿¥œ¥Ÿ.");
 				clients.remove(name);
 			}

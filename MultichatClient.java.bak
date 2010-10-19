@@ -86,7 +86,7 @@ public class MultichatClient
 			try
 			{
 				while(true){
-				System.out.println('\n'+in.readUTF()+'\n');
+				System.out.println('\n'+in.readUTF());
 				}
 			}
 			catch (IOException e)
